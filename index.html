@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contest-2</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+       <form action="mailto:dshauryadixit@gmail.com" id="myForm" onsubmit="return finalScreen()"  method="post">
+        <div>
+
+            <div class="email-container">
+                <label id="email-head" for="email">Email</label><br>
+                <input type="email" id="email" placeholder="Example@email.com" required><br>
+            </div>
+        
+        <div class="error-msg" id="error"></div>
+
+        <div class="password-container">
+            <label id="password-head" for="password">Password</label> <br>
+            <input type="password" name="myPassword" id="password" placeholder="Your Password" required><br>
+        </div>
+
+        <div class="error-msg" id="error-Two"></div>
+
+        <button id="submit">Submit</button>
+
+    </div>
+    </form>
+
+       
+        
+       
+    
+    <script src="script.js"></script>
+</body>
+</html>

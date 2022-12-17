@@ -1,0 +1,53 @@
+body{
+
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 15px;
+    color: black;
+
+}
+
+.email-container{
+    margin-top:30px;
+    margin-bottom:0;
+    margin-left: 1rem;
+}
+
+#email{
+    width:400px;
+    font-size:15px;
+    padding:5px;
+    border:2px solid gray;
+    border-radius:5px;
+    margin-top:10px;
+}
+
+.password-container{
+    margin-top:50px;
+    margin-left: 1rem;
+}
+
+#password{
+    width:400px;
+    font-size:15px;
+    padding:5px;
+    border:2px solid gray;
+    border-radius:5px;
+    margin-top:10px;   
+}
+
+.error-msg{
+    margin-left:15px;
+}
+
+#submit{
+    margin-top: 50px;
+    margin-left: 1rem;
+    background:white;
+    font-size:15px;
+    width:200px;
+    padding:5px 12px;
+    border-radius:6px;
+}
